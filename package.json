@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "prettier": "prettier --write --config .prettierrc.js src/**/*.ts",
     "eslint:fix": "eslint --cache --fix src/**/*.ts && npm run prettier",
     "tsnd": "tsnd --respawn src/server.ts",
